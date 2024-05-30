@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-coffee-style",
+  "version": "1.0.0",
+  "description": "Trinh Minh Nhat - learning TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Trinh Minh Nhat",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
