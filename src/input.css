@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* ct = custom, nhớ có dấu chấm phẩy ; */
+.ct-topmenu-expanded {
+  @apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown;
+}
+
+.ct-menu-item {
+  @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee 
+  after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+}
+
+.ct-menu-item-active {
+  @apply text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee 
+  after:lg:h-0.5 after:lg:w-full;
+}
+
+.ct-icon {
+  @apply w-5 h-5 inline-block;
+}
+
+.ct-circle-badge {
+  @apply text-xs text-center rounded-full px-1.5;
+}
