@@ -3,14 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coffee style</title>
-  <link href="./output.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./img/favicon/mlem.jpeg" sizes="16x16">
+  <title>CoffeeStyle</title>
+  <link href="./output.css" type="text/css" rel="stylesheet">\
+  <script src="./main.js" type="text/javascript" async></script>
 </head>
 <body>
   <div id="root">
-    <div class="content-wrapper">
-      <header>
-        Header
+    <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-5 bg-slate-200">
+      <header class="p-6 mx-auto">
+        <nav class="flex flex-row justify-between items-center relative">
+          <div class="logo basis-2/6 pr-15 text-center text-lg font-semibold cursor-pointer">
+            <span>Coffee style.</span>
+          </div>
+          <ul id="ct-top-menu" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-7 
+          text-sm text-gray-500 font-medium"> <!--Phần tử 2-->
+            <li class="ct-menu-item ct-menu-item-active">
+              <a href="#" class="">HOME</a>
+            </li>
+            <li class="ct-menu-item">
+              <a href="#" class="">PRODUCTS</a>
+            </li>
+            <li class="ct-menu-item">
+              <a href="#" class="">BLOG</a>
+            </li>
+            <li class="ct-menu-item">
+              <a href="#" class="">ABOUT</a>
+            </li>
+            <li class="ct-menu-item">
+              <a href="#" class="">CONTACT</a>
+            </li>
+            <li class="ct-menu-item">
+              <a href="#" class="">STYLE GUIDE</a>
+            </li>
+            <li class="ct-menu-item">
+              <a href="http://trungquandev.com " target="blank" class="">TRUNGQUANDEV</a>
+            </li>
+          </ul>
+
+          <ul class="basis-3/6 lg:basis-1/6 flex justify-end ml-16 uppercase text-sm text-gray-500 font-medium"> <!--Phần tử Cart-->
+            <li class="ct-menu-item">
+              <a href="#" class="flex items-center lg:items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ct-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+                <span>Cart</span>
+                <span class="ct-circle-badge bg-orange-400 text-white">7</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="lg:hidden basis-1/6 cursor-pointer pl-2 sm:pl-12">
+            <svg id="ct-top-menu-toggle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </div>
+
+        </nav>
       </header>
 
       <main>
@@ -38,9 +87,6 @@
           subcribe-us
         </div><!--End subcribe-us-->
 
-        <div class="slider">
-          slider
-        </div><!--End slider-->
       </main>
 
       <footer>
