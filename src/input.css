@@ -28,5 +28,9 @@
 }
 
 .ct-title-each-content {
-  @apply px-72 pb-32 text-center uppercase text-xs text-gray-400 font-medium tracking-widest;
+  @apply pb-32 text-center uppercase text-xs text-gray-400 font-medium tracking-widest;
+}
+
+.ct-button {
+  @apply font-bold uppercase text-xs text-center tracking-widest py-4 px-10;
 }

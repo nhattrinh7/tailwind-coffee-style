@@ -48,7 +48,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                 </svg>
                 <span>Cart</span>
-                <span class="ct-circle-badge bg-orange-400 text-white">7</span>
+                <span class="ct-circle-badge bg-[#1d1f2e] text-white">7</span>
               </a>
             </li>
           </ul>
@@ -58,7 +58,6 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
           </div>
-
         </nav>
       </header>
 
@@ -78,40 +77,145 @@
           </div>
         </div><!--End slider-->
         
-        <div class="story">
-          <div class="w-full h-full flex justify-center items-center">
-            <div class="px-4 md:px-28 xl:px-96 py-32 text-center">
-              <div class="text-2xl mb-6">Even the all-powerful Pointing has no control about the blind texts.</div>
-              <div class="mb-6 leading-7 text-sm text-gray-500">
-                It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
-                <br>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life 
-                One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far 
-                World of Grammar.
-              </div>
-              <div class="">
-                <a href="#" class="text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 after:left-0 after:bg-coffee-50 
-                hover:after:bg-coffee-200 after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-300">
-                  Read the full Story
-                </a>
-              </div>
+        <div class="story flex justify-center items-center">
+          <div class="px-4 md:px-28 xl:px-96 py-32 text-center">
+            <div class="text-2xl mb-6">Even the all-powerful Pointing has no control about the blind texts.</div>
+            <div class="mb-6 leading-7 text-sm text-gray-500">
+              It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
+              <br>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life 
+              One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far 
+              World of Grammar.
             </div>
-          </div> 
+            <div class="">
+              <a href="#" class="text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 after:left-0 after:bg-coffee-50 
+              hover:after:bg-coffee-200 after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-300">
+                Read the full Story
+              </a>
+            </div>
+          </div>
         </div><!--End story-->
 
         <div class="ct-title-each-content">
           <div class="">Featured mugs</div>
         </div>
 
-        <div class="featured-mugs">
-          featured-mugs
+        <div class="featured-mugs w-[95%] lg:w-[65%] mx-auto mb-28">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="ct-product-card">
+              <div class="h-[400px] sm:h-[540px] bg-[url('./img/pink-coffee.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#" alt="tqd">
+                  <div class="w-full h-full hover:bg-gray-500 hover:opacity-10 hover:transition-all hover:ease-in-out
+                    hover:duration-1000 relative group">
+                    <div class="absolute left-1/2 -translate-x-1/2 hidden group-hover:block bottom-4 text-gray-800 w-11/12 font-bold 
+                      uppercase text-xs text-center tracking-widest py-4 group-hover:animate-fadeIn bg-white px-10">
+                      Explore mugs
+                    </div>
+                  </div>
+                </a>
+              </div>  
+              <div class="text-center my-8">
+                <a href="#">
+                  <div class="text-xl text-gray-800">Pink Premium Ceramic</div>
+                </a>
+                <div class="my-2">
+                  <span class="text-md text-gray-500">$ 99.00 USD</span>
+                </div>
+              </div>
+            </div>
+
+            <div class=""> 
+              <div class="h-[400px] sm:h-[540px] bg-[url('./img/brown-coffee.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#" alt="tqd">
+                  <div class="w-full h-full hover:bg-gray-500 hover:opacity-10 hover:transition-all hover:ease-in-out
+                    hover:duration-1000 relative group">
+                    <div class="absolute top-3 right-3 text-center w-[100px] font-bold bg-white text-coffee-400 py-2 px-4 rounded-[1px]">
+                      On sale.
+                    </div>
+                    <div class="ct-button absolute left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bottom-4 text-gray-800 w-11/12 bg-white">
+                      Explore mugs
+                    </div>
+                  </div>
+                </a>
+              </div>  
+              <div class="text-center my-8">
+                <a href="#">
+                  <div class="text-xl text-gray-800">Golden Designers Mug</div>
+                </a>
+                <div class="my-2">
+                  <span class="text-coffee-400 text-xl mr-2">$50.00</span>
+                  <span class="text-md line-through text-gray-500">$ 99.00 USD</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div><!--End featured-mugs-->
         
-        <div class="ct-title-each-content">
-          <div class="">More-products</div>
-        </div>
+        <div class="ct-title-each-content"><div class="">More-products</div></div>
 
-        <div class="more-products">
-          more-products
+        <div class="more-products md:w-[80%] lg:w-[65%] mx-auto mb-16">
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="ct-product-card">
+              <div class="product-card h-[380px] bg-[url('./img/coffee-2.jpg')] bg-center bg-cover bg-no-repeat relative">
+                <div class="absolute px-4 py-2 bg-white top-2 right-2 rounded-[1px] font-semibold text-coffee-400 cursor-text">
+                  On sale.
+                </div>
+                <a href="#" alt="nhat">
+                  <div class="w-full h-full hover:bg-gray-900 hover:opacity-10 relative group">
+                    <div class="absolute uppercase bottom-4 left-1/2 -translate-x-1/2 w-11/12 py-4 text-center text-gray-800 text-xs 
+                      tracking-widest font-bold bg-white rounded-[1px] hidden group-hover:block hover:animate-fadeIn">
+                      Explore mugs
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="ct-product-card">
+              <div class="product-card h-[380px] bg-[url('./img/coffee-6.jpg')] bg-center bg-cover bg-no-repeat relative">
+                <div class="absolute px-4 py-2 bg-white top-2 right-2 rounded-[1px] font-semibold text-coffee-400 cursor-text">
+                  On sale.
+                </div>
+                <a href="#" alt="nhat">
+                  <div class="w-full h-full hover:bg-gray-900 hover:opacity-10 relative group">
+                    <div class="absolute uppercase bottom-4 left-1/2 -translate-x-1/2 w-11/12 py-4 text-center text-gray-800 text-xs 
+                      tracking-widest font-bold bg-white rounded-[1px] hidden group-hover:block hover:animate-fadeIn">
+                      Explore mugs
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="ct-product-card">
+              <div class="product-card h-[380px] bg-[url('./img/coffee-5.jpg')] bg-center bg-cover bg-no-repeat relative">
+                <div class="absolute px-4 py-2 bg-white top-2 right-2 rounded-[1px] font-semibold text-coffee-400 cursor-text">
+                  On sale.
+                </div>
+                <a href="#" alt="nhat">
+                  <div class="w-full h-full hover:bg-gray-900 hover:opacity-10 relative group">
+                    <div class="absolute uppercase bottom-4 left-1/2 -translate-x-1/2 w-11/12 py-4 text-center text-gray-800 text-xs 
+                      tracking-widest font-bold bg-white rounded-[1px] hidden group-hover:block hover:animate-fadeIn">
+                      Explore mugs
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="ct-product-card">
+              <div class="product-card h-[380px] bg-[url('./img/coffee-7.jpg')] bg-center bg-cover bg-no-repeat relative">
+                <div class="absolute px-4 py-2 bg-white top-2 right-2 rounded-[1px] font-semibold text-coffee-400 cursor-text">
+                  On sale.
+                </div>
+                <a href="#" alt="nhat">
+                  <div class="w-full h-full hover:bg-gray-900 hover:opacity-10 relative group">
+                    <div class="absolute uppercase bottom-4 left-1/2 -translate-x-1/2 w-11/12 py-4 text-center text-gray-800 text-xs 
+                      tracking-widest font-bold bg-white rounded-[1px] hidden group-hover:block hover:animate-fadeIn">
+                      Explore mugs
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+          </div>
         </div><!--End more-products-->
 
         <div class="ct-title-each-content">
