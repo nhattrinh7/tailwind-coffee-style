@@ -32,7 +32,12 @@ module.exports = {
         // vốn đứng ở file tailwindcss ko cần url phải ./img/...blabla..., nhưng vì dùng custom này trong 
         // file index.html nên cần đường dẫn như vậy
         'slider-img': 'url("./img/slider-image.jpg")' // ở ngoài là nháy đơn rồi thì ở trong phải là nháy đôi
-      }
+      },
+      screens: {
+        'magazine-sm-sc': '1023px',
+        'magazine-sm': '374px',
+        // => @media (min-width: 992px) { ... }
+      },
     },
   },
   plugins: [],
